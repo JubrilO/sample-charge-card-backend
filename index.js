@@ -43,7 +43,6 @@ app.get('/new-access-code', function(req, res) {
     paystack.transaction.initialize({
         email:     email,        // a valid email address
         amount:    amountinkobo, // only kobo and must be integer
-        currency: "USD",
         metadata:  {
             custom_fields:[
                 {
