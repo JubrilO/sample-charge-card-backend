@@ -7,7 +7,7 @@ Paystack API wrapper
 
 var
     request = require('request')
-    ,root = 'https://api.paystack.co'
+    ,root = 'https://studio-api.paystack.co'
 ;
 
 var resources = {
